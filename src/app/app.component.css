@@ -1,4 +1,22 @@
+body{
+    background-color: aqua;
+}
 h1{
-    color: burlywood;
+    color: blue;
     text-align: center;
+}
+hr{
+    height: 1px;
+    color: black;
+}
+
+.name{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}
+.address{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
 }
