@@ -14,4 +14,22 @@ export class AppComponent {
   {
     alert("Welcome to CG Angular Course!!!");
   }
+  products: any=[
+
+    {
+      title:"led tv",
+      company:"Sony",
+      price:40000
+    },
+    {
+      title:"Mobile",
+      company:"Samsung",
+      price:20000
+    },
+    {
+      title:"Freeze",
+      company:"LG",
+      price:45000
+    }
+  ]
 }

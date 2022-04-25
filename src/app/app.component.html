@@ -16,4 +16,25 @@ Employee address is {{ address}}
 <h1>Example for event binding....</h1>
 
 <button (click)="display()" style="margin: 50px;">CLICK ME TO GENERATE THE EVENT</button>
+
+<hr>
+<h1>Product Information</h1>
+
+<div *ngFor="let x of products">
+    <div class="t">
+        {{x.title}}
+    </div>
+    <div class="c">
+        {{x.company}}
+    </div>
+    <div class="p">
+        {{x.price}}
+    </div>
+    
+    
+
+</div>
+
+<br>
+
 </body>
