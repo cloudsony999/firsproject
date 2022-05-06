@@ -36,5 +36,27 @@ Employee address is {{ address}}
 </div>
 
 <br>
+<hr><br>
+<div>
+    <p>name is {{stringbind}}</p>
+</div>
+<br>
+<div>
+    <p><input type="text" [value]= stringbind [disabled]=x></p>
+</div>
+<br><hr><br>
+<div>
+<button (click)="onChange()">Change the name</button>
 
+</div>
+
+<br>
+
+<div>
+    <p><input type="text" [value]= two [(ngModel)]="two"></p>
+</div>
+
+<br>
+<label>New Name is :</label><p>
+<input type="text" [value]=two></p>
 </body>
